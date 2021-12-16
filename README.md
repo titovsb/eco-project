@@ -33,7 +33,7 @@ version: 1.0b
 
     (venv) $git config --global user.name 'username'
     (venv) $git config --global user.email 'user@email'
-    (venv) $git init
+    (venv) $git init            // скорее всего эту команду не надо
     (venv) $git clone https://github.com/titovsb/eco-project
     (venv) $git pull            # здесь команды уточнить
 
