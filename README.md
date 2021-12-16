@@ -1,5 +1,5 @@
 ---
-author: Sergei Titov
+author: Sergey Titov
 title: eco-projct
 status: Beta
 version: 1.0b
@@ -31,16 +31,16 @@ version: 1.0b
 ### 3. Клонирование репозитория
 Для совместной работы проведите инициализацию локального репозитория и склонируйте репозиторий:
 
-    (venv) $git config --global user.name 'eco'
-    (venv) $git config --global user.email your@email
+    (venv) $git config --global user.name 'username'
+    (venv) $git config --global user.email 'user@email'
     (venv) $git init
-    (venv) $git clone https://github.com/titovsb/debi
+    (venv) $git clone https://github.com/titovsb/eco-project
     (venv) $git pull            # здесь команды уточнить
 
 ### 4. Установка зависимостей
 Установите зависимости интерпретатора:
 
-    (venv) $python install -r code/requirements.txt
+    (venv) $python install -r code/ecosite/requirements.txt
 
 ## Запуск приложения
 ### 1. Запуск сервера
